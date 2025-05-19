@@ -38,11 +38,10 @@ In the `sample_output/` folder, you'll find example CSV files showing how the ou
    ```
 
 2. If you choose to use the OpenAI API:
-   - You will receive an OpenAI API key from us. Save it in a `.env` file:
+   - You will receive an OpenAI API key from us. Save it in a `.env` file in the repo:
      ```
      OPENAI_API_KEY="your-key-here"
      ```
-   - Use `python-dotenv` to load it in your script, or pass it via environment variable.
    - Please be mindful of API usage - while you can freely use the key for this project, avoid excessive calls or sharing the key.
    - **IMPORTANT**: Do not commit the `.env` file or include the API key in your submission. Add `.env` to your `.gitignore` file.
 
@@ -54,7 +53,7 @@ In the `sample_output/` folder, you'll find example CSV files showing how the ou
 
 2. Make sure your repo includes:
    - Your full working code 
-   - A `requirements.txt` or `environment.yml` file that contains all the packages you used so that we can run your code ourselves
+   - A `requirements.txt` file that contains all the packages you used so that we can run your code ourselves
    - Your CSV output files in a folder called /output
    - A short write-up (`WRITEUP.md`) with:
      - Your approach and assumptions
