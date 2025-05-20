@@ -74,3 +74,9 @@ In the `sample_output/` folder, you'll find example CSV files showing how the ou
 - If you have any questions, feel free to reach out at sheel@getspect.ai.
 
 Good luck! We're excited to see your work 🚀
+
+---
+
+## 🔒 Confidentiality Notice
+
+This project and all its contents (including but not limited to PDFs, API keys, and code) are confidential and intended solely for your use in this interview process. Please do not share any part of this project, including the API key, with anyone else. Any unauthorized sharing or distribution of these materials is strictly prohibited.
