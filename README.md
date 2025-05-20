@@ -16,6 +16,7 @@ This take-home interview project is designed to simulate that work on a smaller 
 
 You are given 3 sample construction submittal PDFs (in the `input/` folder). Your goal is to write a Python script that can automatically extract the products from a given PDF. For each PDF, you should output a single CSV file where each row is a unique product that has a Product Name and Manufacturer Name extracted. Your script should take the PDF path as input and should create the CSV file as output. The script should be generalizable, meaning you should use the same script for each PDF and your script will be tested on 1 additional hidden submittal PDF that is similar in nature but unseen to you.
 
+Feel free to use any libraries, packages, or approach you think would work best. If you want to use language models or vision models in your approach, you can use OpenAI's models - we'll provide an API key for this purpose.
 
 ### 🔁 Bonus (optional):
 
@@ -31,11 +32,13 @@ In the `sample_output/` folder, you'll find example CSV files showing how the ou
 
 ## 🛠️ Setup Instructions
 
-1. Clone this repo (or unzip the folder if sent as an archive):
-   ```bash
-   git clone https://github.com/SpectAI/interview-assignment.git
-   cd interview-assignment
-   ```
+1. Fork this repo to your GitHub account:
+   - Click the "Fork" button in the top right of this repository
+   - Clone your forked repo:
+     ```bash
+     git clone https://github.com/YOUR-USERNAME/interview-assignment.git
+     cd interview-assignment
+     ```
 
 2. If you choose to use the OpenAI API:
    - You will receive an OpenAI API key from us. Save it in a `.env` file in the repo:
